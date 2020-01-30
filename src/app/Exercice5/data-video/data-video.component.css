@@ -1,0 +1,12 @@
+.container{
+    margin-left: 19.7vw;
+    margin-top: -2vw;
+    width: 80%;
+}
+.row{
+    display: flex;
+}
+.row div{
+    width: 45%;
+    margin-left: 3vw;
+}

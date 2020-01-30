@@ -1,0 +1,12 @@
+<div class="container">
+        <div class="row" *ngFor="let item of videoList">
+          <div *ngFor="let sousitem of item.liste" >
+                   <iframe  height="315" [src]="getEmbedUrl(sousitem.id)" 
+                   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                   allowfullscreen style="width: 100%;">
+                   </iframe>
+          </div>
+        </div>
+        
+</div>
+        

@@ -1,0 +1,13 @@
+.card{
+    width: 100%;
+    background-image: url("../../../assets/img/cinema.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vw;
+  
+  }
+  
+.container{
+    overflow-y: scroll;
+    min-width: 300px;
+    height:300px;
+}

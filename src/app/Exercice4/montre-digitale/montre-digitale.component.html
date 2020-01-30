@@ -1,0 +1,11 @@
+<div class="all">
+<div class="timer">
+        <h2>The Time is:</h2>
+          <div class="time">
+              <div><span class="hour">{{ timer | async | date: 'hh'}}</span> <span>Hours</span></div>
+              <div><span class="minutes">{{ timer | async | date: 'mm'}}</span> <span>Minutes</span></div>
+              <div><span class="seconds">{{ timer | async | date: 'ss'}}</span> <span>Seconds</span></div>
+          </div>
+</div>
+</div>       
+        
